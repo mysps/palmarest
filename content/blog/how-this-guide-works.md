@@ -25,6 +25,6 @@ Before anything goes live we confirm it's a real place you can walk into today, 
 
 No star ratings, no "top 10" lists that never change, no paid placements. Hours, photos and bookings live on each venue's own Google Maps page and Instagram — we link you straight there rather than trying to replicate information that goes stale the moment someone changes their Tuesday hours.
 
-If a place closes, we remove it. If something is wrong, [let us know](https://www.instagram.com/restaurantsinpalma/) and we'll fix it.
+If a place closes, we remove it. If something is wrong, [let us know](https://www.instagram.com/restmallorca/) and we'll fix it.
 
 ## A few of our favourites to get you started
