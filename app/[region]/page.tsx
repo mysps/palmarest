@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Directory from "@/components/Directory";
-import MapView from "@/components/MapView";
-import { REGIONS, toPins, type Region } from "@/lib/geo";
+import RegionContent from "@/components/RegionContent";
+import { REGIONS, type Region } from "@/lib/geo";
 import { getVenues } from "@/lib/venues";
 
 type Props = { params: Promise<{ region: string }> };
@@ -25,22 +24,11 @@ export default async function RegionPage({ params }: Props) {
   const venues = getVenues().filter((v) => v.region === region);
 
   return (
-    <>
-      <section className={`hero hero-small hero-${region}`}>
-        <h1>{info.name}</h1>
-        <p className="lede">{info.intro}</p>
-      </section>
-      {venues.length ? (
-        <>
-          <Directory venues={venues} lockRegion />
-          <h2>On the map</h2>
-          <MapView pins={toPins(venues)} fit={region === "mallorca" ? "island" : "pins"} />
-        </>
-      ) : (
-        <div className="empty">
-          <p>Nothing here yet. New places are added as they are checked.</p>
-        </div>
-      )}
-    </>
+    <RegionContent
+      region={region}
+      name={info.name}
+      intro={info.intro}
+      venues={venues}
+    />
   );
 }

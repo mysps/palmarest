@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
+import CategoryHero from "@/components/CategoryHero";
 import Directory from "@/components/Directory";
-import { emojiFor } from "@/lib/look";
 import { getCategories, getVenues } from "@/lib/venues";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -27,17 +26,7 @@ export default async function CategoryPage({ params }: Props) {
 
   return (
     <>
-      <section className="hero hero-small">
-        <Link href="/categories/" className="back">
-          ← All moods
-        </Link>
-        <h1>
-          <span aria-hidden="true">{emojiFor(category.name)}</span> {category.name}
-        </h1>
-        <p className="lede">
-          {category.count === 1 ? "1 place" : `${category.count} places`} in Palma and the rest of Mallorca.
-        </p>
-      </section>
+      <CategoryHero name={category.name} count={category.count} />
       <Directory venues={venues} lockCategory />
     </>
   );

@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { formatDate, type Post } from "@/lib/blog";
+import type { Post } from "@/lib/blog";
+import { formatDate } from "@/lib/date";
 import { colourFor } from "@/lib/look";
 
 export default function PostCard({ post }: { post: Pick<Post, "slug" | "title" | "date" | "summary" | "emoji"> }) {
