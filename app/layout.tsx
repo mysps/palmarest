@@ -1,9 +1,9 @@
 import type { Metadata, Viewport } from "next";
-import Link from "next/link";
 import "@fontsource-variable/unbounded";
 import "@fontsource-variable/onest";
 import Footer from "@/components/Footer";
 import LangToggle from "@/components/LangToggle";
+import Logo from "@/components/Logo";
 import TabBar from "@/components/TabBar";
 import { LangProvider } from "@/lib/lang";
 import { site } from "@/site.config";
@@ -28,9 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <LangProvider>
           <header className="top">
-            <Link href="/" className="logo">
-              {site.name}
-            </Link>
+            <Logo />
             <TabBar />
             <LangToggle />
           </header>

@@ -67,7 +67,7 @@ export default function Directory({ venues, lockRegion = false, lockCategory = f
         <div className="moods" role="group" aria-label={t.typeLabel}>
           {categories.map((c) => (
             <button key={c} type="button" aria-pressed={category === c} onClick={() => setCategory(category === c ? "" : c)}>
-              <span aria-hidden="true">{emojiFor(c)}</span> {c}
+              <span aria-hidden="true">{emojiFor(c)}</span> {t.categories[c] ?? c}
             </button>
           ))}
         </div>

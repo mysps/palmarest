@@ -23,6 +23,8 @@ export const translations = {
     tabMoods: "Moods",
     tabMap: "Map",
     tabBlog: "Blog",
+    // Site name
+    siteName: "Palma Food Guide",
     // Surprise
     surpriseMe: "Surprise me",
     surpriseMeAgain: "Surprise me again",
@@ -92,6 +94,8 @@ export const translations = {
     tabMoods: "Ambiente",
     tabMap: "Mapa",
     tabBlog: "Blog",
+    // Site name
+    siteName: "Gu\u00eda Gastron\u00f3mica de Palma",
     // Surprise
     surpriseMe: "Sorpr\u00e9ndeme",
     surpriseMeAgain: "Sorpr\u00e9ndeme de nuevo",
