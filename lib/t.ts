@@ -1,0 +1,51 @@
+export const translations = {
+  en: {
+    searchPlaceholder: "Search a name, street or craving",
+    searchLabel: "Search places",
+    areaLabel: "Area",
+    everywhere: "Everywhere",
+    typeLabel: "Type of place",
+    placesSingular: "place",
+    placesPlural: "places",
+    noResults: "Nothing matches that yet.",
+    clearFilters: "Clear filters",
+    showMore: (n: number) => `Show more (${n} left)`,
+    footerNote:
+      "An independent guide. Hours and photos live on each venue\u2019s own Instagram and Google Maps pages.",
+    footerContact: "Your place is listed and something\u2019s wrong?",
+    footerContactLink: "Tell us",
+    placesInArticle: "Places in this article",
+    allArticles: "\u2190 All articles",
+    tabHome: "Home",
+    tabMoods: "Moods",
+    tabMap: "Map",
+    tabBlog: "Blog",
+    surpriseMe: "Surprise me",
+  },
+  es: {
+    searchPlaceholder: "Busca un nombre, calle o antojo",
+    searchLabel: "Buscar lugares",
+    areaLabel: "\u00c1rea",
+    everywhere: "En todas partes",
+    typeLabel: "Tipo de lugar",
+    placesSingular: "lugar",
+    placesPlural: "lugares",
+    noResults: "Nada coincide con eso todav\u00eda.",
+    clearFilters: "Borrar filtros",
+    showMore: (n: number) => `Mostrar m\u00e1s (${n} restantes)`,
+    footerNote:
+      "Una gu\u00eda independiente. Los horarios y fotos viven en el Instagram y Google Maps de cada local.",
+    footerContact: "\u00bfTu local est\u00e1 listado y algo es incorrecto?",
+    footerContactLink: "Cu\u00e9ntanos",
+    placesInArticle: "Lugares en este art\u00edculo",
+    allArticles: "\u2190 Todos los art\u00edculos",
+    tabHome: "Inicio",
+    tabMoods: "Ambiente",
+    tabMap: "Mapa",
+    tabBlog: "Blog",
+    surpriseMe: "Sorpr\u00e9ndeme",
+  },
+} as const;
+
+export type Lang = keyof typeof translations;
+export type T = (typeof translations)[Lang];

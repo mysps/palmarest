@@ -2,7 +2,10 @@ import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import "@fontsource-variable/unbounded";
 import "@fontsource-variable/onest";
+import Footer from "@/components/Footer";
+import LangToggle from "@/components/LangToggle";
 import TabBar from "@/components/TabBar";
+import { LangProvider } from "@/lib/lang";
 import { site } from "@/site.config";
 import "./globals.css";
 
@@ -23,23 +26,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <header className="top">
-          <Link href="/" className="logo">
-            {site.name}
-          </Link>
-          <TabBar />
-        </header>
-        <main>{children}</main>
-        <footer className="foot">
-          <p>
-            An independent guide. Hours and photos live on each venue&apos;s own Instagram and Google Maps pages.
-          </p>
-          {site.contactUrl ? (
-            <p>
-              Your place is listed and something&apos;s wrong? <a href={site.contactUrl}>Tell us</a>.
-            </p>
-          ) : null}
-        </footer>
+        <LangProvider>
+          <header className="top">
+            <Link href="/" className="logo">
+              {site.name}
+            </Link>
+            <TabBar />
+            <LangToggle />
+          </header>
+          <main>{children}</main>
+          <Footer contactUrl={site.contactUrl} />
+        </LangProvider>
       </body>
     </html>
   );

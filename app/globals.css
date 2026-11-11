@@ -56,6 +56,11 @@ h2 { font-size: 1.45rem; margin: 2.5rem 0 1rem; }
 }
 .tab-icon { font-size: 1.35rem; line-height: 1.2; }
 .tabbar a[aria-current="page"] { background: var(--lemon); }
+.lang-toggle {
+  font-size: .8rem; font-weight: 700; padding: .35rem .7rem;
+  background: var(--paper); border: var(--edge); border-radius: 2rem;
+  cursor: pointer; box-shadow: 2px 2px 0 var(--ink);
+}
 
 /* Hero */
 .hero { padding: 1.5rem 0 .5rem; }

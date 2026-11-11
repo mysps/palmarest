@@ -1,0 +1,1 @@
+ALTER TABLE venues ADD COLUMN description_es TEXT NOT NULL DEFAULT '';

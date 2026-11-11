@@ -1,5 +1,13 @@
 name = "palmarest"
 compatibility_date = "2026-11-01"
+main = "worker.js"
 
 [assets]
 directory = "./out"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "palma-directory"
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"

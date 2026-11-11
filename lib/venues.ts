@@ -15,6 +15,7 @@ type Row = {
   category_slug: string;
   address: string;
   description_en: string;
+  description_es: string;
   google_place_id: string;
   lat: number | null;
   lng: number | null;
@@ -33,6 +34,7 @@ export type Venue = {
   categorySlug: string;
   address: string;
   description: string;
+  description_es: string;
   placeId: string;
   mapsUrl: string;
   lat: number | null;
@@ -67,6 +69,7 @@ export function getVenues(): Venue[] {
       categorySlug: r.category_slug,
       address: r.address,
       description: r.description_en,
+      description_es: r.description_es,
       placeId: r.google_place_id,
       mapsUrl: mapsUrl(r),
       lat: r.lat,

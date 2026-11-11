@@ -18,7 +18,7 @@ const approved = rows.filter(
 );
 
 const seen = new Set();
-const cols = "slug, name, instagram_username, instagram_url, region, town, neighbourhood, category, category_slug, address, description_en, google_place_id, lat, lng, verified_on";
+const cols = "slug, name, instagram_username, instagram_url, region, town, neighbourhood, category, category_slug, address, description_en, description_es, google_place_id, lat, lng, verified_on";
 const update = cols.split(", ").filter((c) => c !== "instagram_username").map((c) => `${c} = excluded.${c}`).join(", ");
 
 const statements = approved.map((r) => {
@@ -28,7 +28,7 @@ const statements = approved.map((r) => {
   const values = [
     q(slug), q(r.restaurant_name), q(r.instagram_username), q(r.instagram_url), q(r.region), q(r.area),
     q(r.neighbourhood), q(r.category), q(slugify(r.category || "")), q(r.address), q(r.description_en),
-    q(r.google_place_id), num(r.lat), num(r.lng), q(r.verified_on),
+    q(r.description_es), q(r.google_place_id), num(r.lat), num(r.lng), q(r.verified_on),
   ].join(", ");
   return `INSERT INTO venues (${cols}) VALUES (${values})\n  ON CONFLICT (instagram_username) DO UPDATE SET ${update}, updated_at = datetime('now');`;
 });

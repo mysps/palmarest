@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import VenueCard from "@/components/VenueCard";
+import { useLang } from "@/lib/lang";
 import { REGIONS, type Region } from "@/lib/geo";
 import { emojiFor } from "@/lib/look";
 import type { Venue } from "@/lib/venues";
@@ -18,6 +19,7 @@ type Props = {
 };
 
 export default function Directory({ venues, lockRegion = false, lockCategory = false }: Props) {
+  const { t } = useLang();
   const [q, setQ] = useState("");
   const [category, setCategory] = useState("");
   const [region, setRegion] = useState<"" | Region>("");
@@ -43,10 +45,10 @@ export default function Directory({ venues, lockRegion = false, lockCategory = f
   return (
     <section className="directory" id="places">
       {lockRegion ? null : (
-        <div className="segment" role="group" aria-label="Area">
+        <div className="segment" role="group" aria-label={t.areaLabel}>
           {(["", ...Object.keys(REGIONS)] as ("" | Region)[]).map((r) => (
             <button key={r || "all"} type="button" aria-pressed={region === r} onClick={() => setRegion(r)}>
-              {r ? REGIONS[r].name : "Everywhere"}
+              {r ? REGIONS[r].name : t.everywhere}
             </button>
           ))}
         </div>
@@ -57,12 +59,12 @@ export default function Directory({ venues, lockRegion = false, lockCategory = f
         type="search"
         value={q}
         onChange={(e) => setQ(e.target.value)}
-        placeholder="Search a name, street or craving"
-        aria-label="Search places"
+        placeholder={t.searchPlaceholder}
+        aria-label={t.searchLabel}
       />
 
       {lockCategory || categories.length < 2 ? null : (
-        <div className="moods" role="group" aria-label="Type of place">
+        <div className="moods" role="group" aria-label={t.typeLabel}>
           {categories.map((c) => (
             <button key={c} type="button" aria-pressed={category === c} onClick={() => setCategory(category === c ? "" : c)}>
               <span aria-hidden="true">{emojiFor(c)}</span> {c}
@@ -72,14 +74,14 @@ export default function Directory({ venues, lockRegion = false, lockCategory = f
       )}
 
       <p className="count" aria-live="polite">
-        {shown.length} {shown.length === 1 ? "place" : "places"}
+        {shown.length} {shown.length === 1 ? t.placesSingular : t.placesPlural}
       </p>
 
       {shown.length === 0 ? (
         <div className="empty">
-          <p>Nothing matches that yet.</p>
+          <p>{t.noResults}</p>
           <button type="button" className="btn" onClick={reset}>
-            Clear filters
+            {t.clearFilters}
           </button>
         </div>
       ) : (
@@ -97,7 +99,7 @@ export default function Directory({ venues, lockRegion = false, lockCategory = f
               className="btn load-more"
               onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
             >
-              Show more ({shown.length - visibleCount} left)
+              {t.showMore(shown.length - visibleCount)}
             </button>
           )}
         </>

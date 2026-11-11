@@ -16,7 +16,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Alemany es el emblema del restaurante familiar mallorquín: carta clásica de la isla, raciones generosas y ese trato de siempre que hace que los turistas repitan y los locales nunca se vayan."
   },
   {
     "id": 15,
@@ -35,7 +36,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Cocina vegana y plant-based en Palma que demuestra que comer sin carne no tiene por qué ser aburrido — platos creativos, sabores potentes y un menú que cambia con la temporada."
   },
   {
     "id": 5,
@@ -54,7 +56,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Cocina mallorquina de temporada en el corazón de Palma — ingredientes del mercado, recetas de siempre y el tipo de mesa donde el tiempo se detiene."
   },
   {
     "id": 17,
@@ -73,7 +76,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Tartas, pasteles y bollería que saben a que alguien se tomó el tiempo de hacerlos bien — Anita Cakes es la respuesta a todos los antojos dulces de Palma."
   },
   {
     "id": 18,
@@ -92,7 +96,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Café de especialidad en el barrio de Santa Catalina: granos de origen, métodos de filtro y el ambiente tranquilo de quien sabe que un buen café no necesita prisas."
   },
   {
     "id": 6,
@@ -111,7 +116,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Cócteles clásicos y de autor en un espacio íntimo del centro de Palma — el Arlequín es el sitio donde los bartenders de la ciudad van cuando terminan su turno."
   },
   {
     "id": 7,
@@ -130,7 +136,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Alta cocina mallorquina con producto de la isla y técnica de primer nivel — Andreu Genestra lleva años colocando a Mallorca en el mapa gastronómico europeo."
   },
   {
     "id": 8,
@@ -149,7 +156,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Cocina contemporánea con raíces mallorquinas en el centro de Palma — Arume combina producto local con una propuesta moderna que no pierde de vista de dónde viene."
   },
   {
     "id": 9,
@@ -168,7 +176,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Un jardín con cócteles, cerveza artesanal y la vibra relajada de quien sabe que las mejores noches no necesitan decoración excesiva."
   },
   {
     "id": 23,
@@ -187,7 +196,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Cafetería de barrio en Palma con desayunos contundentes, bocadillos de siempre y el ambiente de mesa corrida donde los vecinos llevan años comenzando el día."
   },
   {
     "id": 24,
@@ -206,7 +216,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Cocina fusión en un rincón del centro — Badal Corner mezcla influencias con confianza y una carta que cambia lo suficiente para que siempre haya razón para volver."
   },
   {
     "id": 25,
@@ -225,7 +236,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Bodega de pueblo en el Valle de Sóller — vinos locales, embutidos de la finca y la calma del interior de Mallorca lejos del ruido de la costa."
   },
   {
     "id": 32,
@@ -244,7 +256,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Bar del Rector es el local de pueblo que resiste con dignidad en el centro de Mallorca — vermut el domingo, partido entre semana y una barra que no ha cambiado en décadas."
   },
   {
     "id": 33,
@@ -263,7 +276,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Un bar con carácter en el interior de la isla — tapas de siempre, vino a granel y la tranquilidad de los pueblos mallorquines que el turismo masivo aún no ha encontrado."
   },
   {
     "id": 30,
@@ -282,7 +296,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Cocina marinera en el corazón de Palma — pescado fresco, arroces del día y esa honestidad de restaurante portuario que sabe que el producto lo es todo."
   },
   {
     "id": 31,
@@ -301,7 +316,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Bocados, cafés y algo más en un local de barrio donde el precio es justo y la calidad no defrauda — el tipo de sitio que todo barrio debería tener."
   },
   {
     "id": 10,
@@ -320,7 +336,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Un clásico de toda la vida en la Plaza de España: café solo por la mañana, cerveza fría al mediodía y esa energía de bar de barrio que ninguna cadena puede imitar."
   },
   {
     "id": 34,
@@ -339,7 +356,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Bar Flexas es el emblema del bar de barrio palmesano: café con leche al amanecer, caña a mediodía y la misma clientela de siempre en los taburetes de siempre."
   },
   {
     "id": 35,
@@ -358,7 +376,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "La Sang es el bar que todo el Casco Antiguo de Palma conoce — cerveza fría, tapas sencillas y una plaza con sombra perfecta para el vermut del domingo."
   },
   {
     "id": 28,
@@ -377,7 +396,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Un bar de los de siempre en el centro de Palma — café, copa y el trato directo de quien lleva en el barrio más tiempo que la mayoría de sus clientes."
   },
   {
     "id": 36,
@@ -396,7 +416,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "El Mónaco lleva generaciones en el centro de Palma con una propuesta sin pretensiones y el talento natural de los bares que no necesitan reinventarse."
   },
   {
     "id": 37,
@@ -415,7 +436,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Un bar pequeño frente al mar en Sant Elm — café de mañana, sangría de tarde y las vistas al islote de Sa Dragonera que hacen que todo lo demás deje de importar."
   },
   {
     "id": 27,
@@ -434,7 +456,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Bar Rita es el local donde Santa Catalina se pone de moda sin darse cuenta — vermut, tapas creativas y una terraza que llena antes de que llegue el verano."
   },
   {
     "id": 39,
@@ -453,7 +476,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Coctelería y tapas en un espacio con diseño en el centro de Palma — Sión combina ambiente nocturno con una propuesta de barra que no descuida los detalles."
   },
   {
     "id": 40,
@@ -472,7 +496,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "El Venecia lleva en la misma dirección desde 1934 — café, copa y el orgullo tranquilo de quien no necesita renovar lo que ya funciona."
   },
   {
     "id": 41,
@@ -491,7 +516,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Bar Veritat hace honor a su nombre: vermut honesto, tapas sin artificio y la convicción de que lo más auténtico de Palma se encuentra en sus bares de toda la vida."
   },
   {
     "id": 29,
@@ -510,7 +536,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Chiringuito en la playa con los pies en la arena, mojitos a mediodía y la convicción de que la mejor comida en la playa es la que llega sin esperar demasiado."
   },
   {
     "id": 42,
@@ -529,7 +556,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Cocina mediterránea en el puerto de Bonaire con vistas al mar, producto fresco y ese ritmo de almuerzo largo que solo existe cuando el Mediterráneo está cerca."
   },
   {
     "id": 43,
@@ -548,7 +576,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Cocina coreana en Palma — bibimbap, Korean fried chicken y una carta que trae sabores del extremo oriente sin edulcorar para el paladar local."
   },
   {
     "id": 44,
@@ -567,7 +596,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Panadería artesana en Palma con pan de masa madre, pasteles de temporada y el aroma de horno de leña que convierte la compra del pan en una pequeña celebración."
   },
   {
     "id": 45,
@@ -586,7 +616,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Cocina de fusión asiática en Palma — especias, texturas y una propuesta que mezcla influencias sin perder el hilo conductor de un equipo que sabe lo que hace."
   },
   {
     "id": 1,
@@ -605,7 +636,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Una de las bodegas más antiguas de Palma, abierta desde 1920: llonguets mallorquines, vino de la casa por copa y una dirección en el Centre que no ha cambiado en más de un siglo."
   },
   {
     "id": 2,
@@ -624,7 +656,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Una pequeña joya del casco antiguo en el Carrer d'En Morei — vermut casero, tapas mallorquinas y el encanto íntimo de bodega que parece un secreto aunque no lo sea."
   },
   {
     "id": 46,
@@ -643,7 +676,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Vinos de Mallorca en un espacio íntimo donde la selección es personal y el trato, cercano — Bodega Sángel es para los que quieren aprender mientras beben."
   },
   {
     "id": 47,
@@ -662,7 +696,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Galería, café y espacio creativo en el corazón del casco antiguo de Palma — Bolixe es el sitio donde el arte y el café comparten protagonismo con igual convicción."
   },
   {
     "id": 48,
@@ -681,7 +716,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Un café bar con vistas y producto local en el norte de Mallorca — el lugar perfecto para una parada entre ruta y ruta por la Serra de Tramuntana."
   },
   {
     "id": 38,
@@ -700,7 +736,8 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "Can Gori es cocina mallorquina de raíz en un pueblo del interior: sopas, frito y carn i xulla en un comedor donde el tiempo pasa más despacio."
   },
   {
     "id": 3,
@@ -719,6 +756,7 @@
     "lat": null,
     "lng": null,
     "verified_on": "2026-11-10",
-    "updated_at": "2026-11-10 18:44:23"
+    "updated_at": "2026-11-11 10:55:56",
+    "description_es": "El bar de cerveza artesanal más longevo de Palma en el Carrer de les Caputxines — una lista de grifos rotativos con cervezas locales e internacionales y una clientela que de verdad sabe lo que es una IPA."
   }
 ]
